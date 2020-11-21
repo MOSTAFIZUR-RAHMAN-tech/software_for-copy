@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap');
+
+
+
+
+html,
+body {
+	overflow-x: hidden;
+}
+
+
+
+
+/*  HEADER
+===================================
+*/
+
+/*  background image and image
+===================================
+*/
+
+.header .headerSection__image {
+
+	background-image: url("images/bg-header-desktop.png");
+	background-repeat: repeat-y;
+}
+
+.headerSection__image {
+	height: 95px;
+
+}
+
+
+.headerSection__image img {
+	width: 100%;
+}
+
+.headerSection__image .logo {
+
+	display: block;
+	margin: 0 auto 0 auto;
+	width: 130px;
+	height: 240px;
+	padding-top: 110px;
+
+}
+
+
+body {
+	font-family: 'Bai Jamjuree', sans-serif;
+	text-align: center;
+	font-size: 18px;
+}
+
+
+.headerSection {
+	margin: 0px !important;
+}
+
+.headerSection__image {
+
+	margin: 0px !important;
+
+}
+
+/*  TEXT SECTION
+===================================
+*/
+
+.headerSection__text {
+
+	text-align: center;
+	margin-top: 210px !important;
+}
+
+
+.headerSection__text {
+	margin-top: 90px;
+}
+
+.headerSection__title h3 {
+	font-weight: 600 !important;
+}
+
+.headerSection__description p {
+	margin-top: 30px;
+	margin-bottom: 50px;
+	font-weight: 400;
+}
+
+/*  BUTTON SECTION
+===================================
+*/
+
+.headerSection__button button {
+
+	border-radius: 40px;
+	padding: 15px 70px;
+	display: inline !important;
+	margin-top: 39px;
+	margin-right: 13px !important;
+	color: white;
+	border: none;
+
+
+
+}
+
+
+.headerSection__button button {
+	margin: 0 auto 0 auto;
+	display: block;
+}
+
+.buttonOne {
+	background-color: hsl(171, 66%, 44%);
+}
+
+.buttonTwo {
+	margin-top: 20px !important;
+	background-color: hsl(233, 100%, 69%);
+}
+
+/*  TRACKING WORK
+===================================
+*/
+
+.trackingWork {
+
+
+	margin-top: 190px;
+
+
+
+}
+
+.trackingWork_title {
+
+	font-weight: 600;
+	margin-bottom: 40px;
+}
+
+.trackingWork_description {
+	margin-top: 20px;
+	font-weight: 400;
+}
+
+.tracking_img {
+	margin-top: 50px;
+}
+
+
+/*  USES
+===================================
+*/
+
+
+#someUses {
+	margin-top: 25px !important;
+}
+
+.uses {
+	margin-top: 50px;
+	text-align: left;
+
+}
+
+.uses_title h3 {
+	font-weight: 600;
+}
+
+.uses_discription {
+	font-weight: 400;
+}
+
+
+/*  ACCESS CLIPBOARD
+===================================
+*/
+
+
+
+.access_clipboard {
+
+	margin-top: 190px;
+}
+
+.access_clipboard_title {
+
+	font-weight: 600;
+}
+
+.access_clipboard_description {
+	margin-top: 20px;
+	font-weight: 400;
+}
+
+.access_img {
+	margin-top: 50px;
+}
+
+
+/*  WORKFLOW
+===================================
+*/
+
+
+
+.workflow {
+
+	margin-top: 190px;
+}
+
+.workflow_title {
+
+	font-weight: 600;
+}
+
+.workflow_description {
+	margin-top: 10px;
+	font-weight: 400;
+}
+
+
+
+/*  ALL FEATURES
+===================================
+*/
+.all-features {
+	margin-top: 90px;
+}
+
+
+.features .features__title {
+	font-weight: 600;
+}
+
+.features__img {
+	margin-bottom: 30px;
+}
+
+
+
+/*  ALL BRAND
+===================================
+*/
+.all-brand {
+	width: 90%;
+	margin: 0 auto 0 auto;
+	display: block;
+	margin-top: 90px;
+
+}
+
+.all-brand div img {
+	margin-right: 20px;
+}
+
+
+
+/*  FOOTER
+===================================
+*/
+
+.footer .footerSection {
+	text-align: left !important;
+	margin-top: 50px;
+}
+
+.footer .footerSection div .footer__one a {
+	display: block;
+	margin-top: 20px;
+	text-align: center !important;
+}
+
+.footer_social-icon {
+	margin-top: 40px;
+
+}
+
+
+.footer_social-icon img {
+	margin-right: 15px;
+}
+
+.footer .footerSection {
+	width: 90%;
+	margin: 0 auto 0 auto;
+	display: block;
+	margin-top: 50px;
+}
+
+footer .footerSection a {
+	display: inline;
+	text-align: center !important;
+}
+
+/*  MEDIA QUERIES
+===================================
+*/
+
+
+
+
+
+@media only screen and (m-width: 700px) {
+
+	.headerSection__description,
+	.trackingWork_description,
+	.access_clipboard_description,
+	.headerSection__description {
+	
+		margin: 0px 20px 200px 0px ;
+	
+	}
+
+}
+
+
+
+
+@media only screen and (min-width: 713px) {
+
+	.headerSection__image img .logo {
+
+		display: inline;
+		margin: 0px auto 0px auto;
+		text-align: center;
+		height: 240px;
+		width: 160px;
+		position: absolute;
+
+	}
+
+
+	
+
+	.footer {
+		margin-top: 180px;
+	}
+
+
+	.footer .footer__logo img {
+		height: 90px;
+		width: 90px;
+	}
+	.headerSection__description,
+	.trackingWork_description,
+	.access_clipboard_description,
+	.headerSection__description {
+	
+		margin: 0px 150px 0px 150px;
+	
+	}
+
+	.someUses {
+
+		margin-top: 50px;
+	}
+
+
+}
+
+
+
+
+@media only screen and (min-width: 760px) {
+
+	.all-features .features {
+		margin-top: 50px !important;
+	}
+
+
+	.headerSection__button {
+		display: block;
+	}
+
+
+
+	.all-brand div {
+
+		margin-top: 60px;
+
+
+	}
+
+	.uses {
+		text-align: center
+	}
+
+	.footer .footerSection {
+		width: 90%;
+		margin: 0 auto 0 auto;
+		display: block;
+		margin-top: 280px;
+		text-align: center !important;
+	}
+
+	.footer .footerSection a {
+		margin-top: 30px !important;
+	}
+
+	.footer .footer__logo img {
+		height: 70px;
+		width: 70px;
+		margin-bottom: 30px;
+	}
+
+	.headerSection__description,
+	.trackingWork_description,
+	.access_clipboard_description,
+	.headerSection__description {
+	
+		margin: 0px 120px 0px 120px ;
+	
+	}
+
+}
+
+
+
+
+
